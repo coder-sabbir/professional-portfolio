@@ -29,3 +29,18 @@ h1{
     width: 100%;
     margin-top: 5px;
 }
+
+#dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-content{
+    width:50%;
+    padding-right: 5%;
+}
+.dream-content img{
+    width: 100%;
+}
+
