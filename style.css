@@ -44,3 +44,33 @@ h1{
     width: 100%;
 }
 
+#experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5%;
+}
+.experience-content{
+    display: flex;
+}
+.experience-content h3{
+    color: orange;
+}
+.experience-content div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    margin:15px;
+}
+#fullStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,tomato);
+    border-image-slice: 1;
+    padding: 10px;
+}
+#babyWeb{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    padding: 10px;
+}
+
